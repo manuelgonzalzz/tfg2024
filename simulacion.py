@@ -88,7 +88,7 @@ def dist(N_pix,C_med,num_cuentas,filas_eliminadas,columnas_eliminadas):
 
 
 
-#Introduciendo los defectos en las matrices
+#Introduciendo los defectos en las matrices sin defecto
 def matriz_defectos(t,k,N_pix,C_med,fov):
     matriz = matriz_uniform(N_pix,C_med,fov)
     n=int(t*(N_pix/64))
